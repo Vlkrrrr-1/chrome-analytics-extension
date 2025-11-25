@@ -83,17 +83,20 @@ src/
 ### For Development
 
 1. Clone the repository:
+
 ```bash
 git clone <your-repo-url>
 cd my-extension
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Build the extension:
+
 ```bash
 npm run build
 ```
@@ -128,22 +131,26 @@ npm run build
 ## Architecture Highlights
 
 ### Type-Safe Event System
+
 - Discriminated union types for all analytics events
 - Single source of truth for event types using `as const`
 - Compile-time type safety with TypeScript
 
 ### Clean Architecture
+
 - **Separation of Concerns**: Types, Utils, Services, Components
 - **DRY Principle**: Shared utilities, formatters, and hooks
 - **Single Responsibility**: Each module has one clear purpose
 
 ### Performance Optimizations
+
 - Debounced scroll tracking
 - Efficient IndexedDB queries with filtering
 - React hooks for optimized re-renders
 - Helper functions to eliminate code duplication
 
 ### Code Quality
+
 - JSDoc comments for all public APIs
 - Descriptive function and variable names
 - No magic numbers - all constants extracted
@@ -152,12 +159,14 @@ npm run build
 ## Features Breakdown
 
 ### Basic Tier
+
 - Active time tracking
 - Data collection on/off toggle
 - Export to CSV/JSON
 - Clear all data
 
 ### Pro Tier
+
 - Average scroll depth
 - Unique pages visited
 - Active events count
@@ -165,6 +174,7 @@ npm run build
 - Click/interaction tracking toggle
 
 ### Enterprise Tier
+
 - Average TTFB metrics
 - Media events tracking
 - Events per minute
@@ -190,7 +200,7 @@ MIT
 
 ## Author
 
-[Your Name] - [Your Email/GitHub]
+Vlad Bondarenko - vl.bondarrr@gmail.com
 
 ## Contributing
 
