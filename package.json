@@ -1,0 +1,49 @@
+{
+  "name": "activity-analytics-extension",
+  "displayName": "Activity Analytics",
+  "description": "Chrome extension for tracking user activity and analytics",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "private": false,
+  "type": "module",
+  "keywords": [
+    "chrome-extension",
+    "analytics",
+    "activity-tracking",
+    "user-metrics"
+  ],
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "tsc -b && vite build && vite --config vite.config.content.ts build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.10.9",
+    "@chakra-ui/system": "^2.6.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "framer-motion": "^10.18.0",
+    "idb": "^8.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "vite-plugin-static-copy": "^3.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/chrome": "^0.1.12",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.0",
+    "vite": "^7.1.7"
+  }
+}
